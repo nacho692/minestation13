@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "minestation13:block/coffee_machine" },
+    "facing=east": { "model": "minestation13:block/coffee_machine", "y": 90 },
+    "facing=south": { "model": "minestation13:block/coffee_machine", "y": 180 },
+    "facing=west": { "model": "minestation13:block/coffee_machine", "y": 270 }
+  }
+}

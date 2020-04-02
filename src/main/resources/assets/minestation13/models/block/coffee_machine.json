@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "minestation13:block/coffee_machine_side",
+    "down": "minestation13:block/coffee_machine_side",
+    "up": "minestation13:block/coffee_machine_side",
+    "north": "minestation13:block/coffee_machine_front",
+    "east": "minestation13:block/coffee_machine_side",
+    "south": "minestation13:block/coffee_machine_side",
+    "west": "minestation13:block/coffee_machine_side"
+  }
+}

@@ -1,4 +1,4 @@
-package pia.minestation13;
+package pia.minestation13.dimension;
 
 
 import net.minecraft.block.Blocks;
@@ -17,13 +17,22 @@ import net.minecraft.world.gen.EndGenerationSettings;
 import javax.annotation.Nullable;
 import java.util.Random;
 
+/**
+ * SpaceDimension defines a dimension representing space.
+ * It's currently really basic and it's mostly a proof of concept before a better implementation.
+ */
 public class SpaceDimension extends Dimension {
+
     public static final BlockPos SPAWN = new BlockPos(100, 50, 0);;
 
     public SpaceDimension(World world, DimensionType dimensionType) {
         super(world, dimensionType, 1.0F);
     }
 
+    /**
+     * createChunkGenerator defines the generation for this dimension.
+     * @return A ChunkGenerator
+     */
     @Override
     public ChunkGenerator<?> createChunkGenerator() {
         EndGenerationSettings spaceGenSettings = ChunkGeneratorType.FLOATING_ISLANDS.createSettings();
